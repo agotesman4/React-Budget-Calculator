@@ -106,7 +106,7 @@ function App() {
       <h1>
         total spending:
         <span className="total">
-          ${expenses.reduce((accu, item) => (accu += item.amount), 0)}
+          {expenses.reduce((accu, item) => (accu += item.amount), 0)}&#8364;
         </span>
       </h1>
     </>
